@@ -1,0 +1,95 @@
+.header {
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    position: relative;
+}
+
+.headeroverlay {
+    position: relative;
+    z-index: 2;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/bgoverlay.png);
+    background-repeat: repeat;
+    opacity: 0.08;
+}
+
+.navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ background-color: black;
+ z-index: 50;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.logoimg {
+    width: 70px;
+    height: 70px;
+    background-image: url(../assets/icons8-instagram-50.png);
+    background-size: contain;
+
+}
+
+.herosection {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    height: calc(100% - 100px);
+    box-sizing: border-box;
+    padding-left: 50px;
+    padding-top: 30px;
+   
+}
+
+.textfirstline {
+    text-align: left;
+    font-size: 6em;
+    font-weight: 900;
+    color: antiquewhite;
+}
+
+.textsecondline {
+    text-align: left;
+    font-size: 6em;
+    font-weight: 900;
+    color: antiquewhite;
+}
+
+.agencyfunction {
+    width: 500px;
+    padding-top: 50px;
+    font-size: 1.4em;
+    font-weight: 700;
+    color: antiquewhite;
+    text-align: left;
+
+}
+
+.btnhero {
+    position: absolute;
+    z-index: 40;
+    margin-top: 40px;
+    width: 150px;
+    height: 40px;
+    border-radius: 12px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(94,21,244);
+  background: radial-gradient(circle, rgba(94,21,244,1) 48%, rgba(15,208,247,1) 100%);
+  color: antiquewhite; 
+}
